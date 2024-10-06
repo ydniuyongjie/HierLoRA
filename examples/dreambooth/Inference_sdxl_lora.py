@@ -129,5 +129,5 @@ if __name__ == "__main__":
     os.makedirs(output_dir+'/old/')
     images = [pipe(prompt, num_inference_steps=25).images[0] for i in range(args.num_images)]
     for i, image in enumerate(images):
-        image.save(f"{output_dir+'/old/'}/cat1{i}.png")
+        image.save(f"{output_dir+'/old/'}/cat{i}.png")
 
