@@ -189,7 +189,6 @@ pot*/
 *.jpg
 SDXL_model/
 VAE/
-clip-score/
 prior*/
 path*/
 inference_out_dir/
