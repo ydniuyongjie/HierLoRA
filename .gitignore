@@ -195,6 +195,14 @@ inference_out_dir/
 *.jpeg
 *.jpg
 *.png
-
-
-
+style*/
+seq*/
+lora*/
+object*/
+sty*/
+forget*/
+learn*/
+ddim/every*/
+ddim/layer*/
+result_model/
+train_dreambooth_obst/
